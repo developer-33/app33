@@ -3,19 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  background-color: #020202;
 }
 
 @keyframes logo-spin {
@@ -32,11 +20,24 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+.container{
 
-.card {
-  padding: 2em;
-}
+ 
+  max-width: 3000rem;
+  /* background-color: #fa0707; */
+  color: #d62020;
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+  border-image: linear-gradient(to right, #fa0707, #ff8a00);
+  transition: border-image-slice 0.5s;
 
-.read-the-docs {
-  color: #888;
+  &:hover {
+    border-image-width: 1;
+    background-color: #dfe211;
+    color: #ffffff;
+  }
+
+ 
 }
