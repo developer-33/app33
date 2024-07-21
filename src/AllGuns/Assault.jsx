@@ -1,5 +1,5 @@
 
-import GunCard from './GunCard'; // Import the GunCard component
+import GunCard from '../GunCard'; // Import the GunCard component
 
 
 

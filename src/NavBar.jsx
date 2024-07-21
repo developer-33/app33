@@ -1,7 +1,7 @@
 
 import  {useState} from 'react'
 // import { CSidebar, CSidebarHeader, CSidebarBrand, CSidebarToggler, CCollapse, CNavbarNav, CNavItem, CNavLink, CDropdown, CDropdownToggle, CDropdownMenu, CDropdownItem, CDropdownDivider, CForm, CFormInput, CButton, CIcon, cilSpeedometer,CBadge,CNavGroup,CSidebarNav,CNavTitle,cilPuzzle,cilLayers,cilCloudDownload} from '@coreui/react';
-import { CNavbar, CContainer, CNavbarBrand, CNavbarToggler, CCollapse, CNavbarNav, CNavItem, CNavLink, CDropdown, CDropdownToggle, CDropdownMenu, CDropdownItem, CDropdownDivider, CForm, CFormInput, CButton,CFooter }  from '@coreui/react';
+import { CNavbar, CContainer, CNavbarBrand, CNavbarToggler, CCollapse, CNavbarNav, CNavItem, CNavLink, CDropdown, CDropdownToggle, CDropdownMenu, CDropdownItem, CDropdownDivider, CForm, CFormInput, CButton }  from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css' 
 
