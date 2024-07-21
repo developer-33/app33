@@ -16,7 +16,7 @@ const [visible, setVisible] = useState(false)
 
   <CNavbar expand="lg" className="bg-body-tertiary">
       <CContainer fluid>
-        <CNavbarBrand href="#">Navbar</CNavbarBrand>
+        <CNavbarBrand href="#">Call Of Duty DataBase</CNavbarBrand>
         <CNavbarToggler onClick={() => setVisible(!visible)} />
         <CCollapse className="navbar-collapse" visible={visible}>
           <CNavbarNav>
